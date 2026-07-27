@@ -6,7 +6,7 @@ AI-Based Infrastructure Defect Detection System is a deep learning-based compute
 
 The project aims to reduce manual inspection efforts, improve inspection accuracy, and provide a cost-effective solution for monitoring the condition of roads, bridges, buildings, tunnels, and other civil infrastructure. It also supports real-time inspection through webcam-based detection.
 
----
+
 
 ## Features
 
@@ -21,7 +21,7 @@ The project aims to reduce manual inspection efforts, improve inspection accurac
 - Easy-to-use project structure
 - Modular Python implementation
 
----
+
 
 ## Technologies Used
 
@@ -35,7 +35,7 @@ The project aims to reduce manual inspection efforts, improve inspection accurac
 - Pillow
 - Scikit-learn
 
----
+
 
 # Project Structure
 
@@ -81,7 +81,7 @@ AI_Infrastructure_Inspection/
 └── README.md
 ```
 
----
+
 
 # Project Modules
 
@@ -89,13 +89,13 @@ AI_Infrastructure_Inspection/
 
 Contains the training, validation, and testing datasets organized into Crack and Normal classes. Images are automatically loaded during model training using TensorFlow's ImageDataGenerator.
 
----
+
 
 ## Model
 
 Implements a Convolutional Neural Network (CNN) for defect classification. The network learns image features from concrete surface images and predicts whether an input image contains a structural crack.
 
----
+
 
 ## Image Preprocessing
 
@@ -109,7 +109,7 @@ Performs preprocessing operations including:
 
 These preprocessing techniques improve the robustness and accuracy of the trained model.
 
----
+
 
 ## Model Training
 
@@ -123,7 +123,7 @@ The training module:
 
 The trained model is stored in the **models** directory.
 
----
+
 
 ## Prediction
 
@@ -137,7 +137,7 @@ The system:
 - Predicts the defect class
 - Displays the prediction with confidence score
 
----
+
 
 ## Model Evaluation
 
@@ -147,7 +147,7 @@ Evaluates the trained model using the test dataset and reports:
 - Test Loss
 - Classification Performance
 
----
+
 
 ## Webcam Inspection
 
@@ -160,7 +160,7 @@ The captured frames are continuously analyzed and classified as:
 
 The prediction result is displayed directly on the webcam feed.
 
----
+
 
 ## Report Generation
 
@@ -175,7 +175,7 @@ Each report contains:
 
 Reports are generated in CSV format inside the **reports** directory.
 
----
+
 
 ## Sample Images
 
@@ -189,7 +189,7 @@ Example images include:
 - normal1.jpg
 - normal2.jpg
 
----
+
 
 # Dataset Information
 
@@ -204,7 +204,7 @@ The dataset is divided into:
 - Validation Dataset
 - Testing Dataset
 
----
+
 
 # How to Run the Project
 
@@ -212,13 +212,13 @@ The dataset is divided into:
 
 Download or clone the repository.
 
----
+
 
 ## Step 2
 
 Open the project folder.
 
----
+
 
 ## Step 3
 
@@ -228,7 +228,7 @@ Install the required dependencies.
 pip install -r requirements.txt
 ```
 
----
+
 
 ## Step 4
 
@@ -244,7 +244,7 @@ The trained model will be saved inside:
 models/
 ```
 
----
+
 
 ## Step 5
 
@@ -254,7 +254,7 @@ Evaluate the trained model.
 python src/evaluate.py
 ```
 
----
+
 
 ## Step 6
 
@@ -264,7 +264,7 @@ Predict a single image.
 python src/predict.py
 ```
 
----
+
 
 ## Step 7
 
@@ -274,7 +274,7 @@ Run real-time webcam inspection.
 python src/webcam.py
 ```
 
----
+
 
 # Expected Output
 
@@ -296,7 +296,7 @@ Confidence : 97.81%
 
 During webcam inspection, the detected class is displayed live on the video feed.
 
----
+
 
 # Applications
 
@@ -309,7 +309,7 @@ During webcam inspection, the detected class is displayed live on the video feed
 - Construction Site Quality Assessment
 - Preventive Infrastructure Maintenance
 
----
+
 
 # Future Enhancements
 
@@ -322,13 +322,13 @@ During webcam inspection, the detected class is displayed live on the video feed
 - Automated maintenance report generation
 - IoT sensor integration for smart infrastructure monitoring
 
----
+
 
 # Purpose of the Project
 
 The objective of this project is to automate infrastructure inspection using Artificial Intelligence and Computer Vision techniques. By replacing manual visual inspection with deep learning-based image analysis, the system helps improve inspection speed, accuracy, and consistency while supporting early detection of structural defects to enhance public safety and reduce maintenance costs.
 
----
+
 
 # Author
 
